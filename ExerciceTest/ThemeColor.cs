@@ -9,6 +9,8 @@ namespace ExerciceTest
 {
     public static class ThemeColor
     {
+        public static Color PrimaryColor { get; set; }
+        public static Color SecondaryColor { get; set; }
         public static List<string> ColorList = new List<string>()
         {
 
