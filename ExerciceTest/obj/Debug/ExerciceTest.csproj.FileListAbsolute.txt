@@ -1,0 +1,11 @@
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\bin\Debug\ExerciceTest.exe.config
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\bin\Debug\ExerciceTest.exe
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\bin\Debug\ExerciceTest.pdb
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.csproj.AssemblyReference.cache
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.Form1.resources
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.Properties.Resources.resources
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.csproj.GenerateResource.cache
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.csproj.CoreCompileInputs.cache
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.exe
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.pdb
