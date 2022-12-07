@@ -9,3 +9,9 @@ C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.csproj.Gen
 C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.csproj.CoreCompileInputs.cache
 C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.exe
 C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.pdb
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.Forms.FormProducts.resources
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.Forms.FormNotifications.resources
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.Forms.FormCustomers.resources
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.Forms.FormOrders.resources
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.Forms.FormReporting.resources
+C:\Users\user1\Source\Repos\DITI4\ExerciceTest\obj\Debug\ExerciceTest.Forms.FormSettings.resources

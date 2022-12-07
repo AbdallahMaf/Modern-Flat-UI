@@ -52,11 +52,65 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormNotifications.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormNotifications.Designer.cs">
+      <DependentUpon>FormNotifications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCustomers.Designer.cs">
+      <DependentUpon>FormCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormOrders.Designer.cs">
+      <DependentUpon>FormOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProducts.Designer.cs">
+      <DependentUpon>FormProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormReporting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormReporting.Designer.cs">
+      <DependentUpon>FormReporting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThemeColor.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCustomers.resx">
+      <DependentUpon>FormCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNotifications.resx">
+      <DependentUpon>FormNotifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormOrders.resx">
+      <DependentUpon>FormOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProducts.resx">
+      <DependentUpon>FormProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormReporting.resx">
+      <DependentUpon>FormReporting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSettings.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

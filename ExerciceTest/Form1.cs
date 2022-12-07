@@ -16,6 +16,7 @@ namespace ExerciceTest
         private Button currentButton;
         private Random random;
         private int tempIndex;
+        private Form activeForm;
 
         //Constructor
          public Form1()
@@ -69,41 +70,66 @@ namespace ExerciceTest
             }
         }
 
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            if(activeForm != null)
+            {
+                activeForm.Close();
+            }
+            ActivateButton(btnSender);
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            this.panelDesktopPanel.Controls.Add(childForm);
+            this.panelDesktopPanel.Tag = childForm;
+            childForm.Show();
+            lblTitle.Text = childForm.Text;
+
+        }
 
         private void buttonProducts_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormProducts(), sender);
         }
 
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormOrders(), sender);
         }
 
         private void buttonCustomers_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormCustomers(), sender);
+
         }
 
         private void buttonReporting_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormReporting(), sender);
+
         }
 
         private void buttonNotifications_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormNotifications(), sender);
+
         }
 
         private void buttonSettings_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormSettings(), sender);
+
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
              
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

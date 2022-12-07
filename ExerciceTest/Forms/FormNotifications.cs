@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ExerciceTest.Forms
 {
-    public partial class Form1Notifications : Form
+    public partial class FormNotifications : Form
     {
-        public Form1Notifications()
+        public FormNotifications()
         {
             InitializeComponent();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
