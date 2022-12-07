@@ -47,6 +47,9 @@ namespace ExerciceTest
                     currentButton.BackColor = color;
                     currentButton.ForeColor = Color.White;
                     currentButton.Font = this.buttonProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                    panelTitleBar.BackColor = color;
+                    panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
+
                 }
             }
 
@@ -96,6 +99,11 @@ namespace ExerciceTest
         private void buttonSettings_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+             
         }
     }
 
