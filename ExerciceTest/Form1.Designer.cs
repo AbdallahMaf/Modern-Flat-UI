@@ -34,6 +34,7 @@
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDesktopPanel = new System.Windows.Forms.Panel();
+            this.btnCloseChildForm = new System.Windows.Forms.Button();
             this.buttonSettings = new System.Windows.Forms.Button();
             this.buttonNotifications = new System.Windows.Forms.Button();
             this.buttonReporting = new System.Windows.Forms.Button();
@@ -85,6 +86,7 @@
             // panelTitleBar
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
+            this.panelTitleBar.Controls.Add(this.btnCloseChildForm);
             this.panelTitleBar.Controls.Add(this.lblTitle);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitleBar.ForeColor = System.Drawing.Color.Coral;
@@ -113,6 +115,20 @@
             this.panelDesktopPanel.Name = "panelDesktopPanel";
             this.panelDesktopPanel.Size = new System.Drawing.Size(749, 460);
             this.panelDesktopPanel.TabIndex = 2;
+            this.panelDesktopPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktopPanel_Paint);
+            // 
+            // btnCloseChildForm
+            // 
+            this.btnCloseChildForm.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnCloseChildForm.FlatAppearance.BorderSize = 0;
+            this.btnCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCloseChildForm.Image = global::ExerciceTest.Properties.Resources.delete_icon__1_;
+            this.btnCloseChildForm.Location = new System.Drawing.Point(0, 0);
+            this.btnCloseChildForm.Name = "btnCloseChildForm";
+            this.btnCloseChildForm.Size = new System.Drawing.Size(75, 55);
+            this.btnCloseChildForm.TabIndex = 1;
+            this.btnCloseChildForm.UseVisualStyleBackColor = true;
+            this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForm_Click);
             // 
             // buttonSettings
             // 
@@ -232,6 +248,9 @@
             this.Controls.Add(this.panelDesktopPanel);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
+            this.Location = new System.Drawing.Point(0, 50);
+            this.MaximumSize = new System.Drawing.Size(915, 554);
+            this.MinimumSize = new System.Drawing.Size(915, 554);
             this.Name = "Form1";
             this.Text = "FormMainMenu";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -258,6 +277,7 @@
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelDesktopPanel;
+        private System.Windows.Forms.Button btnCloseChildForm;
     }
 }
     

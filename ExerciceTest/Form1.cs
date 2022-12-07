@@ -22,8 +22,11 @@ namespace ExerciceTest
          public Form1()
         {
             InitializeComponent();
-            random = new Random(); 
-        }
+            random = new Random();
+            btnCloseChildForm.Visible = false;
+            this.Text = String.Empty;
+            this.ControlBox = false;
+;        }
 
         private Color SelectThemeColor()
         {
@@ -52,6 +55,7 @@ namespace ExerciceTest
                     panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                     ThemeColor.PrimaryColor = color;
                     ThemeColor.SecondaryColor = ThemeColor.ChangeColorBrightness(color, -0.3);
+                    btnCloseChildForm.Visible = true;
                 }
             }
 
@@ -130,6 +134,30 @@ namespace ExerciceTest
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void panelDesktopPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnCloseChildForm_Click(object sender, EventArgs e)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            Reset();
+
+        }
+
+        private void Reset()
+        {
+            DisableButton();
+            lblTitle.Text = "HOME";
+            panelTitleBar.BackColor = Color.FromArgb(0, 150, 136);
+            panelLogo.BackColor = Color.FromArgb(39, 39, 51);
+            currentButton = null;
+            btnCloseChildForm.Visible = false;
 
         }
     }

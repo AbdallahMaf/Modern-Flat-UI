@@ -83,6 +83,16 @@ namespace ExerciceTest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _372_3725941_cccccc_help_you_with_your_website_problems_html {
+            get {
+                object obj = ResourceManager.GetObject("372-3725941_cccccc-help-you-with-your-website-problems-html", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4202858_github_icon {
             get {
                 object obj = ResourceManager.GetObject("4202858_github_icon", resourceCulture);
@@ -113,6 +123,26 @@ namespace ExerciceTest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap delete_icon {
+            get {
+                object obj = ResourceManager.GetObject("delete-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap delete_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("delete-icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Order_history_icon {
             get {
                 object obj = ResourceManager.GetObject("Order-history-icon", resourceCulture);
@@ -126,6 +156,16 @@ namespace ExerciceTest.Properties {
         internal static System.Drawing.Bitmap preferences_desktop_notification_bell_icon {
             get {
                 object obj = ResourceManager.GetObject("preferences-desktop-notification-bell-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sans_titre_1 {
+            get {
+                object obj = ResourceManager.GetObject("Sans titre-1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

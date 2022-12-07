@@ -19,12 +19,12 @@ namespace ExerciceTest.Forms
 
         private void label5_Click(object sender, EventArgs e)
         {
-            LoadTheme();
+            
         }
 
         private void FormNotifications_Load(object sender, EventArgs e)
         {
-
+            LoadTheme();
         }
         private void LoadTheme()
         {

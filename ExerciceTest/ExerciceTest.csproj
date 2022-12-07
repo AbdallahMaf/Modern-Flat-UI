@@ -165,5 +165,17 @@
   <ItemGroup>
     <None Include="Resources\Settings-icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sans titre-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\372-3725941_cccccc-help-you-with-your-website-problems-html.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

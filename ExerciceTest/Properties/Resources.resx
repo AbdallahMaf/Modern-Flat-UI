@@ -118,34 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="7627472_app_files_folders_folder_storage_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7627472_app_files_folders_folder_storage_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3507740_cart_ecommerce_iconoteka_remove_shop_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3507740_cart_ecommerce_iconoteka_remove_shop_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2344308_gps_location_map_place_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2344308_gps_location_map_place_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SEO-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SEO-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Order-history-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Order-history-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3507740_cart_ecommerce_iconoteka_remove_shop_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3507740_cart_ecommerce_iconoteka_remove_shop_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4202858_github_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4202858_github_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Settings-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cart-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cart-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="preferences-desktop-notification-bell-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\preferences-desktop-notification-bell-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="user-group-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-group-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Settings-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Settings-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7627472_app_files_folders_folder_storage_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7627472_app_files_folders_folder_storage_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="preferences-desktop-notification-bell-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\preferences-desktop-notification-bell-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete-icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sans titre-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sans titre-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4202858_github_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4202858_github_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEO-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SEO-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="372-3725941_cccccc-help-you-with-your-website-problems-html" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\372-3725941_cccccc-help-you-with-your-website-problems-html.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
